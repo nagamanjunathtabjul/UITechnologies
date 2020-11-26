@@ -1,0 +1,89 @@
+bash: man{: command not found
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs
+$ git clone https://github.com/nagamanjunathtabjul/UITechnologies.git
+Cloning into 'UITechnologies'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 608 bytes | 0 bytes/s, done.
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs
+$ cd UITechnologies/
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies (main)
+$ git add -A
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies (main)
+$ git commit -m "Hello"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies (main)
+$ git add -A Lnk.txt
+fatal: pathspec 'Lnk.txt' did not match any files
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies (main)
+$ git commit -m "Hello"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies (main)
+$ git add -A
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies (main)
+$ git commit -m "Hello"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies (main)
+$ git commit push origin master
+error: pathspec 'push' did not match any file(s) known to git
+error: pathspec 'origin' did not match any file(s) known to git
+error: pathspec 'master' did not match any file(s) known to git
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies (main)
+$ git add -A gitcommands.txt
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies (main)
+$ git commit -m "Manju"
+[main 520ef2f] Manju
+ 1 file changed, 7 insertions(+)
+ create mode 100644 gitcommands.txt
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies (main)
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/nagamanjunathtabjul/UITec
+hnologies.git'
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies (main)
+$ cd day1
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies/day1 (main)
+$ git add -A
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies/day1 (main)
+$ git commit -m "hello"
+[main f40e56f] hello
+ 1 file changed, 23 insertions(+)
+ create mode 100644 day1/index.html
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies/day1 (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.03 KiB | 528.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/nagamanjunathtabjul/UITechnologies.git
+   98c5618..f40e56f  main -> main
+
+tabjul nagamanjunath@LAPTOP-FJK4IKDS MINGW64 /n/ReactJs/UITechnologies/day1 (mai
