@@ -1,0 +1,7 @@
+
+
+git github
+git clone
+git commit
+git config
+git push
